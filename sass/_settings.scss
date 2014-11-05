@@ -5,8 +5,7 @@
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
 $base-font-size: 100% !default;
-
-// $base-line-height is 24px while $base-font-size is 16px
+// $base-line-height: is 24px while $base-font-size is 16px;
 // $base-line-height: 150%;
 
 // This is the default html and body font-size for the base em value.
@@ -156,9 +155,9 @@ $include-html-top-bar-classes: $include-html-classes;
 // Grid Variables
 //
 
-// $row-width: em-calc(1000);
-// $column-gutter: em-calc(30);
-// $total-columns: 12;
+ $row-width: em-calc(1800);
+ $column-gutter: em-calc(30);
+ $total-columns: 12;
 
 //
 // Block Grid Variables
@@ -166,12 +165,12 @@ $include-html-top-bar-classes: $include-html-classes;
 
 // We use this to control the maximum number of block grid elements per row
 
- $block-grid-elements: 12;
- $block-grid-default-spacing: em-calc(20);
+ // $block-grid-elements: 12;
+ // $block-grid-default-spacing: em-calc(20);
 
 // Enables media queries for block-grid classes. Set to false if writing semantic HTML.
 
- $block-grid-media-queries: true;
+// $block-grid-media-queries: true;
 
 //
 // Typography Variables
@@ -179,7 +178,7 @@ $include-html-top-bar-classes: $include-html-classes;
 
 // Control header font styles
 
-// $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+ $header-font-family: "jaf-facitweb", sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
 // $header-font-color: #222;
@@ -212,10 +211,10 @@ $include-html-top-bar-classes: $include-html-classes;
 
 // Style paragraphs
 
-// $paragraph-font-family: inherit;
-// $paragraph-font-weight: normal;
-// $paragraph-font-size: 1em;
-// $paragraph-line-height: 1.6;
+$paragraph-font-family: "jaf-facitweb", sans-serif;
+$paragraph-font-weight: normal;
+$paragraph-font-size: 1em;
+$paragraph-line-height: 1.4;
 // $paragraph-margin-bottom: em-calc(20);
 // $paragraph-aside-font-size: em-calc(14);
 // $paragraph-aside-line-height: 1.35;
