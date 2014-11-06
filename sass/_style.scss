@@ -26,8 +26,8 @@
 .top-bar
 {
     background: none;
-    padding: 45px 0.9375rem 90px 0.9375rem;
-    transition: all 0.2s ease 0s;
+    padding: 25px 0.9375rem 90px 0.9375rem;
+    transition: all 0.2s ease 0.1s;
     // LOGO ADJUSTMENT
     ul.title-area img {
         margin: -10px 0 0 0;
@@ -216,7 +216,7 @@ p {
 }
 .content-section {
     .main-content {
-        margin-top: 35px;
+        // margin-top: 35px;
     }
 }
 
