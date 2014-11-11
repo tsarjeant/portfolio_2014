@@ -238,4 +238,31 @@ p {
     }
 }
 
+/* PARALLAX CONTENT SECTION ========================================================================== */
+.parallax-background {
+    // background-color: #FF9900;
+    height: 500px;
+    // background-image: "img/header-hero.png";
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-backgound-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
 
+.intro-text {
+    max-width: 100%;
+    color: #BAB8B8;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.parallax-content {
+    max-width: 100%;
+    position: relative;
+    top: 25rem;
+    padding: 50px;
+    background-color: #fff;
+}

@@ -7500,3 +7500,33 @@ p {
 p {
   line-height: 2rem;
 }
+
+/* PARALLAX CONTENT SECTION ========================================================================== */
+/* line 242, ../sass/_style.scss */
+.parallax-background {
+  height: 500px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-backgound-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+}
+
+/* line 255, ../sass/_style.scss */
+.intro-text {
+  max-width: 100%;
+  color: #BAB8B8;
+  text-align: center;
+  margin-top: 2%;
+}
+
+/* line 262, ../sass/_style.scss */
+.parallax-content {
+  max-width: 100%;
+  position: relative;
+  top: 25rem;
+  padding: 50px;
+  background-color: #fff;
+}
