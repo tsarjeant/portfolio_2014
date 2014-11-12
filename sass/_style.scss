@@ -1,21 +1,3 @@
-.margin-top {
-    margin-top: 1em;
-}
-
-.margin-bottom {
-    margin-bottom: 1em;
-}
-
-.stroke {
-    border-top: 1px solid #e2d286;
-    border-bottom: 1px solid #e2d286;
-}
-
-.grey {
-    background-color: #F1F1F1;
-}
-
-
 /* HEADER SECTON  ================================================================================ */
 .header-section {
     -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
@@ -228,6 +210,13 @@ p {
 }
 
 /* CONTENT SECTION ========================================================================== */
+.margin-bottom {
+    margin-bottom: 1rem;
+}
+
+.margin-top {
+    margin-top: 2rem;
+}
 
 p {
   line-height: 2rem;
@@ -238,11 +227,33 @@ p {
     }
 }
 
+.section-title{
+    margin-bottom: 1em;
+
+}
+
+
+.stroke {
+    background-color: #ff9900;
+    margin-bottom: 1rem;
+    h2 {
+        padding:.5rem;
+        color: #fff;
+    }
+}
+
+.grey {
+    background-color: #F1F1F1;
+}
+
+.slide-height {
+    height:281px !important;
+}
+
 /* PARALLAX CONTENT SECTION ========================================================================== */
 .parallax-background {
     // background-color: #FF9900;
     height: 500px;
-    // background-image: "img/header-hero.png";
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-backgound-size: cover;
@@ -256,13 +267,32 @@ p {
     max-width: 100%;
     color: #BAB8B8;
     text-align: center;
-    margin-top: 2%;
+    // margin-top: 2%;
 }
 
 .parallax-content {
     max-width: 100%;
+    overflow: hidden;
     position: relative;
-    top: 25rem;
-    padding: 50px;
+    top: 29rem;
     background-color: #fff;
+}
+/* SMALL SCREENS */
+@media only screen and (max-width: 40em) {
+    .parallax-background {
+        margin-top: 1rem;
+    }
+    .parallax-content {
+        top: 10rem;
+    }
+}
+/* MEDIUM SCREENS */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .parallax-background {
+        margin-top: 2rem;
+    }
+    .parallax-content {
+        top: 22rem;
+    }
+
 }

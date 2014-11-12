@@ -4,11 +4,11 @@ jQuery(document).ready(function($){
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 20) {
+    if (scroll >= 490) {
       $('#logo-image').attr('src', 'img/logo-sml-color.png')
       $(".important-class").addClass("padding-on-my-header");
     }
-    if (scroll < 20) {
+    if (scroll < 490) {
       $(".important-class").removeClass("padding-on-my-header");
       $('#logo-image').attr('src', 'img/logo-lrg-color.png')
     }
