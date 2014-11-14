@@ -1,3 +1,4 @@
+
 /* HEADER SECTON  ================================================================================ */
 .header-section {
     -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
@@ -210,6 +211,7 @@ p {
 }
 
 /* CONTENT SECTION ========================================================================== */
+
 .margin-bottom {
     margin-bottom: 1rem;
 }
@@ -250,6 +252,10 @@ p {
     height:281px !important;
 }
 
+.slick-slide img {
+    float:right;
+}
+
 /* PARALLAX CONTENT SECTION ========================================================================== */
 .parallax-background {
     // background-color: #FF9900;
@@ -279,6 +285,9 @@ p {
 }
 /* SMALL SCREENS */
 @media only screen and (max-width: 40em) {
+    .slick-slide img {
+    align:center;
+}
     .parallax-background {
         margin-top: 1rem;
     }
@@ -296,3 +305,4 @@ p {
     }
 
 }
+
