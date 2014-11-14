@@ -7579,3 +7579,34 @@ p {
     top: 22rem;
   }
 }
+/* FOOTER SECTION */
+/* line 310, ../sass/_style.scss */
+.footer {
+  margin-top: 2rem;
+  height: 20rem;
+  background-color: #FF9900;
+  color: #fff;
+}
+/* line 315, ../sass/_style.scss */
+.footer .footer-section {
+  height: 100%;
+  border-right: 1px solid #fff;
+}
+/* line 319, ../sass/_style.scss */
+.footer ul {
+  list-style: none;
+}
+/* line 321, ../sass/_style.scss */
+.footer ul a {
+  color: #fff;
+}
+/* line 324, ../sass/_style.scss */
+.footer ul a:hover {
+  color: #888484 !important;
+}
+@media only screen and (max-width: 40em) {
+  /* line 310, ../sass/_style.scss */
+  .footer {
+    border-right: none;
+  }
+}

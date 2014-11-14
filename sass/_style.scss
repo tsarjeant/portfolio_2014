@@ -306,3 +306,26 @@ p {
 
 }
 
+/* FOOTER SECTION */
+.footer {
+    margin-top: 2rem;
+    height: 20rem;
+    background-color: #FF9900;
+    color: #fff;
+    .footer-section {
+        height: 100%;
+        border-right: 1px solid #fff;
+    }
+    ul {
+        list-style: none;
+        a {
+            color:#fff;
+        }
+        a:hover {
+            color: darken($secondary-color, 20%) !important;
+            }
+    }
+    @media only screen and (max-width: 40em) {
+       border-right: none;
+    }
+}
