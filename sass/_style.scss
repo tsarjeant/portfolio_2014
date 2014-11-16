@@ -309,15 +309,19 @@ p {
 /* FOOTER SECTION */
 .footer {
     margin-top: 2rem;
-    height: 20rem;
+    height: 5rem;
     background-color: #FF9900;
     color: #fff;
-    .footer-section {
-        height: 100%;
-        border-right: 1px solid #fff;
-    }
+    // .footer-section {
+    //     height: 100%;
+    // }
     ul {
         list-style: none;
+        display: block;
+        li {
+            float: left;
+            padding-right: 2em;
+        }
         a {
             color:#fff;
         }
@@ -326,6 +330,6 @@ p {
             }
     }
     @media only screen and (max-width: 40em) {
-       border-right: none;
+       // border-right: none;
     }
 }
