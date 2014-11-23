@@ -57,12 +57,16 @@
             &:hover {
                 background: none;
                 color: $secondary-color;
+
             }
         }
         li {
             margin-left: 30px;
             a {
                 color: $secondary-color;
+            }
+            a.active {
+                color: $primary-color;
             }
         }
     }
