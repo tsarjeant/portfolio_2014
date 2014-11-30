@@ -7525,8 +7525,16 @@ p {
   float: right;
 }
 
+/* line 263, ../sass/_style.scss */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  float: none !important;
+}
+
 /* PARALLAX CONTENT SECTION ========================================================================== */
-/* line 264, ../sass/_style.scss */
+/* line 272, ../sass/_style.scss */
 .parallax-background {
   height: 500px;
   background-repeat: no-repeat;
@@ -7538,14 +7546,14 @@ p {
   width: 100%;
 }
 
-/* line 276, ../sass/_style.scss */
+/* line 284, ../sass/_style.scss */
 .intro-text {
   max-width: 100%;
   color: #BAB8B8;
   text-align: center;
 }
 
-/* line 283, ../sass/_style.scss */
+/* line 291, ../sass/_style.scss */
 .parallax-content {
   max-width: 100%;
   overflow: hidden;
@@ -7556,56 +7564,80 @@ p {
 
 /* SMALL SCREENS */
 @media only screen and (max-width: 40em) {
-  /* line 292, ../sass/_style.scss */
+  /* line 300, ../sass/_style.scss */
   .slick-slide img {
     align: center;
   }
 
-  /* line 295, ../sass/_style.scss */
+  /* line 303, ../sass/_style.scss */
   .parallax-background {
     margin-top: 1rem;
   }
 
-  /* line 298, ../sass/_style.scss */
+  /* line 306, ../sass/_style.scss */
   .parallax-content {
     top: 10rem;
   }
 }
 /* MEDIUM SCREENS */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 304, ../sass/_style.scss */
+  /* line 312, ../sass/_style.scss */
   .parallax-background {
     margin-top: 2rem;
   }
 
-  /* line 307, ../sass/_style.scss */
+  /* line 315, ../sass/_style.scss */
   .parallax-content {
     top: 22rem;
   }
 }
 /* FOOTER SECTION */
-/* line 314, ../sass/_style.scss */
+/* line 323, ../sass/_style.scss */
 .footer {
+  padding-top: 1rem;
   margin-top: 2rem;
-  height: 5rem;
   background-color: #FF9900;
   color: #fff;
 }
-/* line 322, ../sass/_style.scss */
+/* line 329, ../sass/_style.scss */
+.footer p {
+  padding: 0;
+  margin: 0 auto;
+}
+/* line 332, ../sass/_style.scss */
+.footer p .button {
+  margin-top: 1rem;
+}
+/* line 337, ../sass/_style.scss */
+.footer .pdfs {
+  padding-top: 1rem;
+}
+/* line 339, ../sass/_style.scss */
+.footer .pdfs a {
+  margin-left: 0.5rem;
+}
+/* line 345, ../sass/_style.scss */
+.footer .social {
+  float: right;
+  padding-left: 0.3em;
+  font-size: 3rem;
+  color: white;
+}
+/* line 359, ../sass/_style.scss */
 .footer ul {
   list-style: none;
   display: block;
 }
-/* line 325, ../sass/_style.scss */
+/* line 362, ../sass/_style.scss */
 .footer ul li {
-  float: left;
+  float: right;
   padding-right: 2em;
 }
-/* line 329, ../sass/_style.scss */
+/* line 366, ../sass/_style.scss */
 .footer ul a {
   color: #fff;
 }
-/* line 332, ../sass/_style.scss */
+/* line 369, ../sass/_style.scss */
 .footer ul a:hover {
   color: #888484 !important;
 }
