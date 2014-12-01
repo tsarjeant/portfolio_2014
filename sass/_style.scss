@@ -207,6 +207,7 @@ p {
         }
     }
 
+
     // SMALLER HEADER
     .header-fill {
         height: 40px;
@@ -299,12 +300,18 @@ p {
 @media only screen and (max-width: 40em) {
     .slick-slide img {
     align:center;
-}
+    }
     .parallax-background {
         margin-top: 1rem;
     }
     .parallax-content {
         top: 10rem;
+    }
+    .slick-next {
+        display:none !important;
+    }
+    .slick-prev {
+        display:none !important;
     }
 }
 /* MEDIUM SCREENS */
@@ -326,6 +333,13 @@ p {
     // height: 4rem;
     background-color: #FF9900;
     color: #fff;
+    a {
+            color:#fff;
+            :hover {
+                color: #cc7a00;
+            }
+        }
+
     p {
         padding:0;
         margin: 0 auto;
@@ -347,7 +361,11 @@ p {
         // padding-top:1rem;
         padding-left:0.3em;
         font-size: 3rem;
-        color:white;
+        color:#cc7a00;
+            a:hover {
+                color: #fff;
+            }
+
     }
 
     //  .copyright {
@@ -363,9 +381,7 @@ p {
             float: right;
             padding-right: 2em;
         }
-        a {
-            color:#fff;
-        }
+
         a:hover {
             color: darken($secondary-color, 20%) !important;
             }

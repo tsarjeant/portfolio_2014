@@ -7473,59 +7473,59 @@ p {
     box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
   }
 
-  /* line 211, ../sass/_style.scss */
+  /* line 212, ../sass/_style.scss */
   .header-fill {
     height: 40px;
   }
 }
 /* CONTENT SECTION ========================================================================== */
-/* line 219, ../sass/_style.scss */
+/* line 220, ../sass/_style.scss */
 .margin-bottom {
   margin-bottom: 1rem;
 }
 
-/* line 223, ../sass/_style.scss */
+/* line 224, ../sass/_style.scss */
 .margin-top {
   margin-top: 2rem;
 }
 
-/* line 227, ../sass/_style.scss */
+/* line 228, ../sass/_style.scss */
 p {
   line-height: 2rem;
 }
 
-/* line 236, ../sass/_style.scss */
+/* line 237, ../sass/_style.scss */
 .section-title {
   margin-bottom: 1em;
 }
 
-/* line 242, ../sass/_style.scss */
+/* line 243, ../sass/_style.scss */
 .stroke {
   background-color: #ff9900;
   margin-bottom: 1rem;
 }
-/* line 245, ../sass/_style.scss */
+/* line 246, ../sass/_style.scss */
 .stroke h2 {
   padding: .5rem;
   color: #fff;
 }
 
-/* line 251, ../sass/_style.scss */
+/* line 252, ../sass/_style.scss */
 .grey {
   background-color: #F1F1F1;
 }
 
-/* line 255, ../sass/_style.scss */
+/* line 256, ../sass/_style.scss */
 .slide-height {
   height: 281px !important;
 }
 
-/* line 259, ../sass/_style.scss */
+/* line 260, ../sass/_style.scss */
 .slick-slide img {
   float: right;
 }
 
-/* line 263, ../sass/_style.scss */
+/* line 264, ../sass/_style.scss */
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -7534,7 +7534,7 @@ p {
 }
 
 /* PARALLAX CONTENT SECTION ========================================================================== */
-/* line 272, ../sass/_style.scss */
+/* line 273, ../sass/_style.scss */
 .parallax-background {
   height: 500px;
   background-repeat: no-repeat;
@@ -7546,14 +7546,14 @@ p {
   width: 100%;
 }
 
-/* line 284, ../sass/_style.scss */
+/* line 285, ../sass/_style.scss */
 .intro-text {
   max-width: 100%;
   color: #BAB8B8;
   text-align: center;
 }
 
-/* line 291, ../sass/_style.scss */
+/* line 292, ../sass/_style.scss */
 .parallax-content {
   max-width: 100%;
   overflow: hidden;
@@ -7564,80 +7564,98 @@ p {
 
 /* SMALL SCREENS */
 @media only screen and (max-width: 40em) {
-  /* line 300, ../sass/_style.scss */
+  /* line 301, ../sass/_style.scss */
   .slick-slide img {
     align: center;
   }
 
-  /* line 303, ../sass/_style.scss */
+  /* line 304, ../sass/_style.scss */
   .parallax-background {
     margin-top: 1rem;
   }
 
-  /* line 306, ../sass/_style.scss */
+  /* line 307, ../sass/_style.scss */
   .parallax-content {
     top: 10rem;
+  }
+
+  /* line 310, ../sass/_style.scss */
+  .slick-next {
+    display: none !important;
+  }
+
+  /* line 313, ../sass/_style.scss */
+  .slick-prev {
+    display: none !important;
   }
 }
 /* MEDIUM SCREENS */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 312, ../sass/_style.scss */
+  /* line 319, ../sass/_style.scss */
   .parallax-background {
     margin-top: 2rem;
   }
 
-  /* line 315, ../sass/_style.scss */
+  /* line 322, ../sass/_style.scss */
   .parallax-content {
     top: 22rem;
   }
 }
 /* FOOTER SECTION */
-/* line 323, ../sass/_style.scss */
+/* line 330, ../sass/_style.scss */
 .footer {
   padding-top: 1rem;
   margin-top: 2rem;
   background-color: #FF9900;
   color: #fff;
 }
-/* line 329, ../sass/_style.scss */
+/* line 336, ../sass/_style.scss */
+.footer a {
+  color: #fff;
+}
+/* line 338, ../sass/_style.scss */
+.footer a :hover {
+  color: #cc7a00;
+}
+/* line 343, ../sass/_style.scss */
 .footer p {
   padding: 0;
   margin: 0 auto;
 }
-/* line 332, ../sass/_style.scss */
+/* line 346, ../sass/_style.scss */
 .footer p .button {
   margin-top: 1rem;
 }
-/* line 337, ../sass/_style.scss */
+/* line 351, ../sass/_style.scss */
 .footer .pdfs {
   padding-top: 1rem;
 }
-/* line 339, ../sass/_style.scss */
+/* line 353, ../sass/_style.scss */
 .footer .pdfs a {
   margin-left: 0.5rem;
 }
-/* line 345, ../sass/_style.scss */
+/* line 359, ../sass/_style.scss */
 .footer .social {
   float: right;
   padding-left: 0.3em;
   font-size: 3rem;
-  color: white;
+  color: #cc7a00;
 }
-/* line 359, ../sass/_style.scss */
+/* line 365, ../sass/_style.scss */
+.footer .social a:hover {
+  color: #fff;
+}
+/* line 377, ../sass/_style.scss */
 .footer ul {
   list-style: none;
   display: block;
 }
-/* line 362, ../sass/_style.scss */
+/* line 380, ../sass/_style.scss */
 .footer ul li {
   float: right;
   padding-right: 2em;
 }
-/* line 366, ../sass/_style.scss */
-.footer ul a {
-  color: #fff;
-}
-/* line 369, ../sass/_style.scss */
+/* line 385, ../sass/_style.scss */
 .footer ul a:hover {
   color: #888484 !important;
 }
